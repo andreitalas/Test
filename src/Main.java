@@ -23,6 +23,6 @@ public class Main {
         for(int iterator=0;iterator<TestString.length;iterator++)
             System.out.println(TestString[iterator]);
 
-        System.out.println(TestObject.getName());
+        System.out.println("Test: "+TestObject.getName());
     }
 }
