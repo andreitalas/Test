@@ -21,7 +21,7 @@ public class Main {
         test TestObject=new test("Talas Andrei","E214A");
 
         for(int iterator=0;iterator<TestString.length;iterator++)
-            System.out.println(TestString[iterator]);
+            System.out.print(TestString[iterator]+" ");
 
         System.out.println("Test: "+TestObject.getName());
     }
